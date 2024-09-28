@@ -42,12 +42,29 @@ h1 {
 img{
     max-width: 100%;
     height: auto;
-    margin: 20px 0;
+    margin: 10px;
 }
 
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px 0 20px 5px;
+    padding: 10px 10px;
+    position: none;
+    width: 100%;
+    bottom: 0;
 }
+
+.img-fluid {
+    width:150px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.row mb-2{
+    justify-content: space-between;
+}
+
+
+
+        
